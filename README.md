@@ -1,8 +1,9 @@
-# MIDI Synthesizer for STM32F7 "CureSynth Whip"
+# STM32H7 DMA sample RAM to SAI (circular)
 
 ## Overview
 
 This is a demo to transfer with DMA circular mode (Memory-to-Peripheral) for STM32H7.
+This is also with a protocol to maintain cache coherency.
 See also [this article](http://www.keshikan.net/gohantabeyo/?p=563) .
 
 STM32H7でキャッシュ一貫性を保持したDMA転送のサンプルです。
